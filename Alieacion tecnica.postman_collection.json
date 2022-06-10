@@ -1,0 +1,43 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Alieacion tecnica",
+		"_postman_id": "38d26056-6bdc-3cc4-a379-3c0e6bfed4a4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "consulta Super Heroes",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8080/api/character/count?startsName=spider",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"character",
+						"count"
+					],
+					"query": [
+						{
+							"key": "startsName",
+							"value": "spider",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
